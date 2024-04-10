@@ -1,0 +1,16 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.site-heading-lower{
+    font-family: 'Times New Roman', Times, serif;
+}
+.mb-3{
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow !important;
+}
+.notyellow{
+    color:rgb(101, 50, 16) !important;
+} /*!important overrides anything which is why we have the notyellow with important to override the .mba style*/
+.intro-text{
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, .5);
+}

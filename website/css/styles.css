@@ -1,0 +1,47 @@
+body{
+    background-color: azure;
+    color: brown; /*text color*/
+    font-family: Georgia,'Times New Roman', Times, serif; /*starts at beginning of list and works down*/
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bolder;
+}
+h5{
+    text-align: center;
+    font-style: italic;
+    background-color: gray;
+    opacity: 40%;
+    color: black;
+}
+a{
+    color:beige;
+}
+a:visited{
+    color:blueviolet;
+}
+img{
+    border: 5px solid rgb(100, 54, 1);
+    padding: 33px;
+    margin: 15px;
+    /* display: block; /*blocks out entire horizontal space*/
+    /* margin: auto; /*makes the margin auto or equal to each other, so they're centered*/
+}
+.imgcenter{ /*. means we're making up the style definition, custom style*/
+    display: block;
+    margin: auto;
+
+}
+.rizz:hover{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+    border: 5px dotted blue;
+    text-align: center;
+}
+li{
+    text-decoration: overline;
+}
+li:hover{
+    text-decoration: underline;
+}
